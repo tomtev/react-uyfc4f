@@ -1,0 +1,32 @@
+{
+  "name": "react",
+  "version": "0.0.0",
+  "private": true,
+  "dependencies": {
+    "@automattic/isolated-block-editor": "2.4.1",
+    "@babel/runtime": "7.15.4",
+    "@wordpress/base-styles": "4.0.0",
+    "@wordpress/block-editor": "7.0.2",
+    "@wordpress/block-library": "6.0.0",
+    "@wordpress/components": "17.0.0",
+    "@wordpress/element": "4.0.1",
+    "@wordpress/format-library": "3.0.2",
+    "isomorphic.js": "^0.2.4",
+    "lodash": "4.17.21",
+    "memize": "1.1.0",
+    "react": "17.0.2",
+    "react-dom": "17.0.2",
+    "reakit-utils": "0.15.2",
+    "redux-multi": "0.1.91",
+    "uuid": "8.3.2"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  },
+  "devDependencies": {
+    "react-scripts": "latest"
+  }
+}
